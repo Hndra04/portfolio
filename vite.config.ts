@@ -5,6 +5,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '', '')
   return {
     plugins: [react()],
+    base: '/portfolio/',
     define: {
       'import.meta.env.VITE_FORMSPREE_ID': JSON.stringify(env.VITE_FORMSPREE_ID || 'mdaybqod'),
     },
