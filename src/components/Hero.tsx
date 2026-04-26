@@ -14,7 +14,7 @@ export function Hero() {
         <p className="text-xl md:text-2xl text-green-600 dark:text-green-400 mb-8 font-medium">
           {portfolioData.title}
         </p>
-        <p className="text-base text-slate-600 dark:text-slate-400 mb-10 max-w-xl mx-auto leading-relaxed">
+        <p className="text-base text-slate-600 dark:text-slate-400 mb-10 max-w-xl mx-auto leading-relaxed text-justify">
           {portfolioData.summary}
         </p>
         

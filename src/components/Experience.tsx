@@ -17,7 +17,7 @@ export function Experience() {
                 </p>
                 <ul className="mt-5 space-y-3">
                   {exp.descriptions.map((desc, i) => (
-                    <li key={i} className="text-slate-600 dark:text-slate-400 leading-relaxed pl-4 border-l-2 border-green-500/20">
+                    <li key={i} className="text-slate-600 dark:text-slate-400 leading-relaxed pl-4 border-l-2 border-green-500/20 text-justify">
                       {desc}
                     </li>
                   ))}
