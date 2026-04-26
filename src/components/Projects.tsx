@@ -27,7 +27,7 @@ export function Projects() {
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors duration-200">
                   {project.title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">{project.description}</p>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4 text-justify">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags?.map((tag, i) => (
                     <span
@@ -50,7 +50,7 @@ export function Projects() {
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
                   {project.title}
                 </h3>
-                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">{project.description}</p>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4 text-justify">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags?.map((tag, i) => (
                     <span
