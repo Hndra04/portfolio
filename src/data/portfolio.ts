@@ -59,7 +59,7 @@ export const portfolioData: PortfolioData = {
       company: "Mekar Investama Teknologi",
       position: "AI and Backend Engineer",
       location: "Jakarta Selatan, DKI Jakarta",
-      period: "Feb 2026 - Present",
+      period: "Feb 2026 - June 2026",
       descriptions: [
         "Design and develop AI-powered features, including generative AI integration and Retrieval-Augmented Generation (RAG) using n8n.",
         "Build and maintain scalable backend systems and APIs with focus on clean architecture, security, and performance optimization.",
